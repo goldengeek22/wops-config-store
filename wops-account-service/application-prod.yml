@@ -1,2 +1,2 @@
 wopsaccount:
-  greeting: "Production: Welcome to the account service from the config server"
+     greeting: "Production: Welcome to the account service from the config server"
