@@ -1,2 +1,10 @@
 wopsaccount:
   greeting: "Welcome to the QA env of account service"
+spring:
+  datasource:
+    username: user
+    password: password
+    url: jdbc:postgresql://localhost:7002/wops_account_qa
+    hikari:
+      connection-timeout: 5000
+      maximum-pool-size: 5
