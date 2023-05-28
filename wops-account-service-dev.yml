@@ -1,6 +1,9 @@
 wopsaccount:
   greeting: "Welcome to the dev env of account service"
 spring:
+  sql:
+    init:
+      mode: always
   datasource:
     username: user
     password: password
